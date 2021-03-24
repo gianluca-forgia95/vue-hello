@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root  {
+  max-width: 1020px;
+  margin: 0 auto;
+  text-align: center;
+}
+#root img {
+  max-width: 700px;
+}
+h1 {
+  font-size: 30px;
+  padding: 40px 0;
+}
+.todo-list {
+  list-style: none;
+  padding: 40px 0;
+}
