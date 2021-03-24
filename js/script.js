@@ -10,6 +10,17 @@ data: {
        'Seguire la lezione',
        'Leggere la documentazione VueJs',
        'Fare prove'
-         ],
-    }
+         ]
+
+    },
+   methods: {
+     changeImg: function () {
+       if (this.img == 'img/pantheon.jpg' ) {
+         return this.img = 'img/foto5.jpg';
+       } else {
+         return this.img == 'img/pantheon.jpg';
+       }
+     }
+   }
+
 });

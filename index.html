@@ -12,13 +12,17 @@
     <div id="root">
 
       <h1 v-bind:title="message">{{ text }}</h1>
-      <img v-bind:src="img" alt="Pantheon">
+
+      <img v-bind:src="img" @click='changeImg' alt="Pantheon">
 
        <ul>
          <li v-for="element in list">
            {{ element }}
          </li>
        </ul>
+
+
+
     </div>
 
     <script src="js/script.js" charset="utf-8"></script>
